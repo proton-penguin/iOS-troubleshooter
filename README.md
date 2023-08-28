@@ -90,9 +90,8 @@ cd iOS-troubleshooter-main
 python3 main.py
 ```
 
-
+## Releases
+https://github.com/proton-penguin/iOS-troubleshooter/releases
 
 ## 斗內我
-想打我都來不急了
-怎麼可能有人斗內
-連結還是不放囉
+想打我都來不急了，怎麼可能有人斗內，連結還是不放囉
