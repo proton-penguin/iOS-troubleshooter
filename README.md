@@ -82,7 +82,7 @@ Paste these codes in Notepad++ then save as main.py
 
 ```bash
 # 進入iOS-troubleshooter directory
-cd iOS-troubleshooter
+cd iOS-troubleshooter-main
 ```
 
 ```bash
