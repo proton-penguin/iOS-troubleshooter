@@ -64,14 +64,16 @@ def progressbar(it, prefix="", size=60, file=sys.stdout):
     
 def ask(c):
 	if c =="Y" or c=="y":
-		for i in progressbar(range(15), "計算中: ", 40):
+		for i in progressbar(range(ri(15,60)), "計算中: ", 40):
 			time.sleep(0.1)
 		print("\n計算完成,請檢查更新\n\n")
-		ask(input("是否閃退？(Y/n) "))
-        
+		time.sleep(ri(0,3))
+		ask(input("%s是否閃退？(Y/n) " %app))    
 	elif c == "n" or c == "N":
-		print("\n問題已解決")
+		print("\n%s問題已解決"%app)
 		sys.exit()
+app = input("輸入應程式名稱： ")
+nouse= input("輸入iOS或iPadOS版本(範例：iOS16.5.1)： ")
 ask(input("是否閃退？(Y/n) "))
 ```
 Paste these codes in Notepad++ then save as main.py
